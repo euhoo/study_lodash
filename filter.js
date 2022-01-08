@@ -1,4 +1,3 @@
-/*  each */
 const usersFilter = [
 	{
 		id: 1,
@@ -34,4 +33,4 @@ const resFilter2 = _.filter(usersFilter, "isActive");
 const resFilter3 = _.filter(usersFilter, ["name", 'name1']);
 // а можно и объекты
 const resFilter4 = _.filter(usersObj2, u => u.name === 'U1')
-console.log(resFilter4);
+// console.log(resFilter4);
