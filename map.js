@@ -1,4 +1,3 @@
-/*  each */
 const users = [
 	{
 		id: 1,
@@ -26,10 +25,10 @@ const usersObj = {
 }
 
 const ids = _.map(users, (i) => i.id);
-console.log(ids);
+// console.log(ids);
 // а можно и так
 const ids2 = _.map(users, 'id');
-console.log(ids2);
+// console.log(ids2);
 // можно и объекты
 const idsObj = _.map(usersObj, (u, key) => Number(key));
-console.log(idsObj);
+// console.log(idsObj);
