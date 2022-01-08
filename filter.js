@@ -3,16 +3,19 @@ const usersFilter = [
 		id: 1,
 		name: 'name1',
 		isActive: true,
+		likes: 11,
 	},
 	{
 		id: 2,
 		name: 'name2',
 		isActive: false,
+		likes: 111,
 	},
 	{
 		id: 3,
 		name: 'name3',
 		isActive: false,
+		likes: 1,
 	},
 ]
 const usersObj2 = {
