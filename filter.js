@@ -4,18 +4,21 @@ const usersFilter = [
 		name: 'name1',
 		isActive: true,
 		likes: 11,
+		age: 25 ,
 	},
 	{
 		id: 2,
 		name: 'name2',
 		isActive: false,
 		likes: 111,
+		age: 32,
 	},
 	{
 		id: 3,
 		name: 'name3',
-		isActive: false,
+		isActive: true,
 		likes: 1,
+		age: 28,
 	},
 ]
 const usersObj2 = {
