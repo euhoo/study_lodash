@@ -1,5 +1,5 @@
 /*  each */
-const arr = [1, 2];
+const arr = [1, 2, 3];
 const products = {
 	1: {
 		"name": "P1",
@@ -9,13 +9,13 @@ const products = {
 	},
 }
 arr.forEach((i) => {
-	console.log(i);
+	// console.log(i);
 })
 _.each(arr, (i) => {
-	console.log(i);
+	// console.log(i);
 })
 
 // можно и объекты
 _.each(products, (p, key) => {
-	console.log(p, ';', key);
+	// console.log(p, ';', key);
 })
