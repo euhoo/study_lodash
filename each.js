@@ -1,5 +1,6 @@
 /*  each */
 const arr = [1, 2, 3];
+const arrWithFalsy = [1, 2, 3, 0, 4, false, undefined, ''];
 const products = {
 	1: {
 		"name": "P1",
